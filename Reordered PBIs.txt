@@ -5,13 +5,9 @@
 1. Chat messages don't seem to support new lines
 4. Make sure /healthz response returns 204
 [DONE] 6. Hide Call button from Contacts when no phone number is given
-[DONE] 7. Add 1-on-1 chats
 10. Add option to only show your favourite contacts in the sidebar
-<<<<<<< HEAD
-12. Create an overview for all contacts
-=======
-[DONE]12. Create an overview for all contacts
->>>>>>> #6
+[DONE] 7. Add 1-on-1 chats
+[DONE] 12. Create an overview for all contacts
 13. You should be able to create a new contact
 11. Sort contacts by last name
 14. Redesign this client to be more inline with Infowijs styling
