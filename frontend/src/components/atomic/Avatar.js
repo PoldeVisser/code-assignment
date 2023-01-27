@@ -7,7 +7,7 @@ export default function Avatar({ img, size }) {
       className={classNames(
         "bg-gray-300 rounded-full flex-shrink-0",
         size === "xs" && "w-4 h-4",
-        size === "s" && "w-6 h-6",
+        size === "sm" && "w-6 h-6",
         size === "md" && "w-8 h-8",
         size === "lg" && "w-10 h-10",
         size === "xl" && "w-12 h-12"
