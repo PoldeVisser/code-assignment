@@ -21,9 +21,11 @@ export default function ContactCard({ person }) {
           <Avatar size="xl" img={person.imageUrl}></Avatar>
         </div>
         <div className="flex divide-x divide-gray-200">
-          <MailIconButton email={person.email} />
+          {person.email && <MailIconButton email={person.email} />}
 
-          <PhoneIconButton phoneNumber={person.telephone} />
+          {person.telephone && (
+            <PhoneIconButton phoneNumber={person.telephone} />
+          )}
         </div>
       </li>
     </Card>
