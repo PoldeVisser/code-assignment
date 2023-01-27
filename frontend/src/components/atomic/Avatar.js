@@ -24,5 +24,5 @@ Avatar.defaultProps = {
 
 Avatar.propTypes = {
   img: PropTypes.string.isRequired,
-  size: PropTypes.oneOf(["xs", "s", "md", "lg", "xl"]),
+  size: PropTypes.oneOf(["xs", "sm", "md", "lg", "xl"]),
 };

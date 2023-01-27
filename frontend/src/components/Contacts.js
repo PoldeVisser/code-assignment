@@ -8,6 +8,7 @@ const people = [
     role: "testrole",
     imageUrl: "https://randomuser.me/api/portraits/women/75.jpg",
     telephone: "+31600000000",
+    isFavourite: true,
   },
   {
     email: "hans@bedrijf.nl",
@@ -16,6 +17,7 @@ const people = [
     role: null,
     imageUrl: "https://randomuser.me/api/portraits/men/75.jpg",
     telephone: null,
+    isFavourite: false,
   },
 ];
 
@@ -23,7 +25,7 @@ export default function Contacts() {
   return (
     <ul className="grid m-4 grid-cols-1 space-y-4">
       {people.map((person) => (
-        <ContactCard person={person} />
+        <ContactCard key={person.email} person={person} />
       ))}
     </ul>
   );
