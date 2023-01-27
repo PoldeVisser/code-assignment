@@ -34,7 +34,7 @@ export default function Contacts() {
                 <h3 className="text-gray-900 text-sm font-medium truncate">
                   {person.name}
                 </h3>
-                <Pill role={person.role} />
+                {person.role && <Pill role={person.role} />}
               </div>
               <p className="mt-1 text-gray-500 text-sm truncate">
                 {person.title}
