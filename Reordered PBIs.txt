@@ -1,0 +1,14 @@
+3. Create Messages API to show chat messages in the Chat UI
+2. Replace dummy chat messages with data from the API
+9. Replace fixed contacts in UI with data from Contacts API
+5. Add new message to the chat
+1. Chat messages don't seem to support new lines
+4. Make sure /healthz response returns 204
+6. Hide Call button from Contacts when no phone number is given
+7. Add 1-on-1 chats
+12. Create an overview for all contacts
+13. You should be able to create a new contact
+10. Add option to only show your favourite contacts in the sidebar
+11. Sort contacts by last name
+14. Redesign this client to be more inline with Infowijs styling
+8. Create a statistics page to measure the adoption of the chat functionality
