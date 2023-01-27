@@ -1,7 +1,3 @@
-import { MailIcon, PhoneIcon } from "@heroicons/react/solid";
-import MailIconButton from "./atomic/MailIconButton";
-import PhoneIconButton from "./atomic/PhoneIconButton";
-import Pill from "./atomic/Pill";
 import ContactCard from "./molecular/ContactCard";
 
 const people = [
@@ -25,7 +21,7 @@ const people = [
 
 export default function Contacts() {
   return (
-    <ul role="list" className="grid m-4 grid-cols-1 space-y-4">
+    <ul className="grid m-4 grid-cols-1 space-y-4">
       {people.map((person) => (
         <ContactCard person={person} />
       ))}
